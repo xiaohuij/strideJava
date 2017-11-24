@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/strideJava.iml" filepath="$PROJECT_DIR$/strideJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/strideJava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/strideJava_main.iml" group="strideJava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/strideJava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/strideJava_test.iml" group="strideJava" />
     </modules>
   </component>
 </project>

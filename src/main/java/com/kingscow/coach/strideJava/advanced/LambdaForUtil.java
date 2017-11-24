@@ -6,10 +6,7 @@ import java.util.Comparator;
 import java.util.Objects;
 import java.util.UUID;
 import java.util.concurrent.Callable;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 public class LambdaForUtil {
 
@@ -51,6 +48,12 @@ public class LambdaForUtil {
         System.out.println("===Consumer===");
         Consumer<Person> greeter = (p) -> System.out.println("Hello, " + p.getName());
         greeter.accept(new Person("Luke", "Skywalker"));
+
+
+        System.out.println("===BiConsumer===");
+        BiConsumer<String,Integer> printKeyAndValue = (key,value) -> System.out.println(key+"-"+value);
+        printKeyAndValue.accept("One",1);
+        printKeyAndValue.accept("Two",2);
 
 
         System.out.println("===Comparator===");
